@@ -1,0 +1,17 @@
+{
+    "name": "avrah/phpstore",
+    "description": "Loja on line em PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Teixeira Pereira Ferreira",
+            "email": "davidbenavraham.ti@gmail.com"
+        }
+    ],
+    "require": {}
+}
