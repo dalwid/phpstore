@@ -6,9 +6,8 @@ session_start();
 // carregar o config
 require_once('../config.php');
 
+// carregar todas as classes do projeto
 require_once('../vendor/autoload.php');
 
-$bd = new Database();
-$clientes = $bd->select("SELECT * FROM clientes");
-echo '<pre>';
-print_r($clientes);
+// carrega as rotas
+require_once('../core/rotas.php');
